@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* -webkit-box-sizing: border-box;
+  box-sizing: border-box; */
+}
+.font-link {
+  font-family: "Poor Story", cursive;
+}
+.featured {
+  font-family: "Poor Story", cursive;
+}
+.infoProfile{
+  font-family: "Montserrat", sans-serif;
+}
+.siteName {
+  padding: 1%;
+  color: #f6f4e6;
+  text-decoration: none;
+}
+.profile {
+  display: none;
+}
+.HomeImage {
+  max-width: 100%;
+  background: url("https://learn.g2crowd.com/hubfs/fullsizeoutput_4d.jpeg");
+  padding: 10% 0;
+}
+
+.homeLink {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #272727;
+}
+
+.homeSorter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.navMenu {
+  /* padding: 2%; */
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+.cart{
+  padding: 2%
+}
+.navBar {
+  
+  display: flex;
+  justify-content: space-around;
+}
+.mainLinks {
+  align-items: center;
+  padding: 2% 0;
+  display: flex;
+  gap: 4%;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+  color: #f6f4e6;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0; 
+  width: 100%;
+}
+/* .profileAvatar{
+  max-width: fit-content;
+  border-radius: 50%;
+  background-color: #9C27B0;
+  align-items: center;
+  padding: 4%;
+} */
+
+.footerWrap{
+  font-family: "Montserrat", sans-serif;
+  position:relative;
+  left:0;
+  bottom:0;
+  right:0;
+
+    min-height: 35vh;
+
+  width: 100%;
+}
+
+/* .userProfile{
+  display: flex;
+  flex-direction: column;
+
+} */
+.buttons{
+  display: flex;
+  flex-direction: column;
+  text-align:justify;
+  align-items: center;
+}
+.links a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  /* display: inline-block; */
+
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.searchAndFilter{
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links a:hover {
+  color: #9C27B0;
+}
+.loginField{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3%;
+  background-color: #FAEBD7;
+}
+.profilePage{
+  padding: 3%;
+  font-family: "Poor Story", cursive;
+
+}
+.avatar{
+  max-width: 400px;
+  border-radius: 20%;
+}
+.loginPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.homeLink h1{
+  padding: 20px;
+  background-color: rgb(205, 166, 95, 0.7);
+
+}
+
+.slide-effect {
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeLink {
+  position: relative;
+  font-family: tahoma;
+  font-size: 25px;
+  opacity:0;
+}
+
+
+.homeLink {
+  top:40px;
+  left:10px;
+  animation: slideUp ease .5s forwards 1.2s;
+}
+
+.element{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.elementWrapper{
+  align-items: center;
+}
+
+@keyframes slideUp {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-40px);opacity:1;}
+}
+
